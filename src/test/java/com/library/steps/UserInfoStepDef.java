@@ -11,6 +11,9 @@ public class UserInfoStepDef {
     @Given("Establish the database connection")
     public void establish_the_database_connection() {
         //DB_Util.createConnection();
+        System.out.println("**********************************************");
+        System.out.println("*** CONNECTION WILL BE DONE WITH HOOK CLASS***");
+        System.out.println("**********************************************");
     }
 
 
@@ -41,6 +44,10 @@ public class UserInfoStepDef {
 
         // close connection
         //DB_Util.destroy();
+        System.out.println("**********************************************");
+        System.out.println("*** DESTROY  WILL BE DONE WITH HOOK CLASS***");
+        System.out.println("**********************************************");
+
 
     }
 
