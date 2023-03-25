@@ -10,7 +10,7 @@ public class UserInfoStepDef {
 
     @Given("Establish the database connection")
     public void establish_the_database_connection() {
-        DB_Util.createConnection();
+        //DB_Util.createConnection();
     }
 
 
@@ -40,7 +40,7 @@ public class UserInfoStepDef {
 
 
         // close connection
-        DB_Util.destroy();
+        //DB_Util.destroy();
 
     }
 
